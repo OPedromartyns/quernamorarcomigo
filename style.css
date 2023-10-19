@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    background-image: url(download.jpg);
+}
+#box{
+background-color: aliceblue;
+
+}
+#title {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    background-color: ;
+    text-align: center;
+    margin-top: 10%;
+}
+#title2{
+    text-align: center;
+}
+
+#sim-btn {
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 32px 48px;
+    border-radius: 50px;
+    background-color: green;
+}
+
+#nao-btn {
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 32px 48px;
+    border-radius: 50px;
+    background-color: red;
+}
+
+#coracao {
+    display: none;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+div{
+    text-align: center;
+}
