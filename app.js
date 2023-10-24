@@ -14,7 +14,7 @@ function mostrarMensagem() {
     var naoBtn = document.getElementById("nao-btn");
 
   
-    var link = "https://www.youtube.com/watch?v=e2ZRUJiNLPY&ab_channel=SIGOLM%C3%ADdia";
+    var link = "https://i.imgflip.com/44f610.gif";
 
     // Abre o link em uma nova janela
     window.open(link, "_blank");
