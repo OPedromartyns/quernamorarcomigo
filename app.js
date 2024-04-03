@@ -14,7 +14,7 @@ function mostrarMensagem() {
     var naoBtn = document.getElementById("nao-btn");
 
   
-    var link = "https://i.imgflip.com/44f610.gif";
+    var link = "https://www.youtube.com/watch?v=izGwDsrQ1eQ&ab_channel=georgemichaelVEVO";
 
     // Abre o link em uma nova janela
     window.open(link, "_blank");
