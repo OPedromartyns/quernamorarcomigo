@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: rgb(255, 255, 255);
-    background-image: url(download.jpg);
+ 
 }
 #box{
 background-color: aliceblue;
@@ -44,3 +44,54 @@ background-color: aliceblue;
 div{
     text-align: center;
 }
+.content-coracao {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100px; /* Reduzido para 100px */
+    margin: 50px auto;
+    -webkit-animation: pulsa 1s linear 0s infinite;
+  }
+  @keyframes pulsa {
+    0% {
+      transform: scale(1.4) rotate(0deg); /* Reduzido para 1.4 */
+    }
+    50% {
+      transform: scale(1.6) rotate(0deg); /* Reduzido para 1.6 */
+    }
+    70% {
+      transform: scale(1.8) rotate(0deg); /* Reduzido para 1.8 */
+    }
+    80% {
+      transform: scale(2) rotate(0deg); /* Reduzido para 2 */
+    }
+    100% {
+      transform: scale(1.6) rotate(0deg); /* Reduzido para 1.6 */
+    }
+  }
+  .square {
+    transform: rotate(45deg);
+    width: 50px; /* Reduzido para 50px */
+    height: 50px; /* Reduzido para 50px */
+    background: #e71940;
+    position: absolute;
+    top: 30px; /* Reduzido para 30px */
+  }
+  .circle:after,
+  .circle:before {
+    content: "";
+    position: absolute;
+    width: 54px; /* Reduzido para 54px */
+    height: 55px; /* Reduzido para 55px */
+    border-radius: 50%;
+    background: #e71940;
+  }
+  .circle:after {
+    left: 5px; /* Reduzido para 5px */
+    top: 6px; /* Reduzido para 6px */
+  }
+  .circle:before {
+    right: 5px; /* Reduzido para 5px */
+    top: 6px; /* Reduzido para 6px */
+  }
+  
